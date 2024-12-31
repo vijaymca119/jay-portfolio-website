@@ -6,7 +6,6 @@ import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
-
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
@@ -14,7 +13,6 @@ const splashScreen = {
 };
 
 // Summary And Greeting Section
-
 const illustration = {
   animated: true // Set to false to use static SVG
 };
@@ -31,7 +29,6 @@ const greeting = {
 };
 
 // Social Media Links
-
 const socialMediaLinks = {
   github: "https://github.com/vijaymca119?tab=repositories",
   linkedin: "https://www.linkedin.com/in/vijay-kumar-3258b196/",
@@ -43,7 +40,6 @@ const socialMediaLinks = {
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
@@ -115,7 +111,6 @@ const skillsSection = {
 };
 
 // Education Section
-
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
@@ -142,7 +137,6 @@ const educationInfo = {
 };
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
@@ -163,7 +157,6 @@ const techStack = {
 };
 
 // Work experience section
-
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
@@ -190,14 +183,12 @@ const workExperiences = {
 };
 
 // Open Source Section to View Your Github Pinned Projects
-
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
-
 const bigProjects = {
   title: "Big Projects",
   subtitle: "PROJECTS THAT I HELPED CREATE AND IMPROVE",
@@ -229,7 +220,6 @@ const bigProjects = {
 };
 
 // Achievement Section
-
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
@@ -254,7 +244,6 @@ const achievementSection = {
 };
 
 // Blogs Section
-
 const blogSection = {
   title: "Blogs",
   subtitle: "I love sharing what I learn through writing blogs.",
@@ -281,7 +270,6 @@ const resumeSection = {
 };
 
 // Settings
-
 const settings = {
   isSplash: true, // Show or hide splash screen
   splashScreen,
